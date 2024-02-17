@@ -1,0 +1,15 @@
+{
+  "name": "session_3",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+   "start": "node index"
+  },
+  "author": "rushi98",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}

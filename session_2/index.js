@@ -1,15 +1,17 @@
 const http = require("http");
 const fs = require("fs");
-
-const cores = require("os");
+const url = require("url")
 
 const myServer = http.createServer((req, res) => {
-  const log = `${Date.now()}: ${req.url} New request received\n`;
+    if(req.url === "/favicon.ico") res.end();
+
+  const log = `${Date.now()}: ${req.url} ${req.method} New request received\n`;
+  const myUrl = url.parse(req.url, true)
 
   fs.appendFile("logs.txt", log, (err, data) => {
-    switch (req.url) {
+    switch (myUrl.pathname) {
       case "/":
-        res.end("HomePage");
+        if (req.method === 'GET') res.end("HomePage");
         break;
       case "/about":
         res.end("About Page");
@@ -18,7 +20,6 @@ const myServer = http.createServer((req, res) => {
         res.end("404 Not FOUND!");
     }
   });
-  console.log("cores==>>>", cores.cpus())
 });
 
 myServer.listen(8000, () => console.log("Server started!!"));
