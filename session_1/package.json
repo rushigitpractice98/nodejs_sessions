@@ -1,0 +1,12 @@
+{
+  "name": "session_1",
+  "version": "1.0.0",
+  "description": "This is for learning node js",
+  "main": "hello.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node hello.js"
+  },
+  "author": "rushi.kamble98",
+  "license": "ISC"
+}
