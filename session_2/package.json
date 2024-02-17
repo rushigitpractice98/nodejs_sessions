@@ -1,0 +1,11 @@
+{
+  "name": "session_2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index"
+  },
+  "author": "rushi98",
+  "license": "ISC"
+}
