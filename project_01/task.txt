@@ -1,0 +1,20 @@
+REST API - design
+
+HYBRID server ( which used for web n other places mobile... we use same api with name with diff endpoints )
+
+GET - /users => return HTML 
+
+for browsers (web)
+
+GET - /api/users => list all users
+
+Dynamic path parameters 
+GET - /api/users/:id
+
+GET - /api/users/1 => get user with ID 1
+
+POST - /api/users => Create new user
+
+PATCH - /api/users/1 => Update the user with ID 1
+
+DELETE - /api/users/1 => Delete the user with ID 1
