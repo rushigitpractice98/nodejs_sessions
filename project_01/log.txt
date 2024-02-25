@@ -1,0 +1,15 @@
+
+ 1708842673616: ::1 GET: /api/users
+ 1708842718408: ::1 POST: /api/users
+ 1708842734626: ::1 GET: /api/users
+ 1708844710281: ::1 GET: /api/users
+ 1708844814101: ::1 GET: /api/users
+ 1708845755164: ::1 POST: /api/users
+ 1708845766426: ::1 GET: /api/users
+ 1708845781509: ::1 DELETE: /api/users/1002
+ 1708845789582: ::1 GET: /api/users
+ 1708846158403: ::1 POST: /api/users
+ 1708846164861: ::1 POST: /api/users
+ 1708846171406: ::1 DELETE: /api/users/1002
+ 1708846312518: ::1 GET: /api/users
+ 1708846319436: ::1 GET: /api/users/2000
