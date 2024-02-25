@@ -1,3 +1,16 @@
 
  1708847096383: ::1 GET: /api/users/2000
  1708847106311: ::1 GET: /api/users/1
+ 1708847221329: GET: /api/users/1
+ 1708850284706: GET: /api/users
+ 1708850526056: GET: /api/users/2000
+ 1708850634715: POST: /api/users
+ 1708867893906: GET: /users
+ 1708867895778: GET: /favicon.ico
+ 1708867896123: GET: /myusers
+ 1708868332160: GET: /myusers
+ 1708868440742: GET: /myusers
+ 1708868563159: GET: /myusers
+ 1708869940577: GET: /myusers
+ 1708870346369: GET: /api/users/2000
+ 1708870355791: GET: /api/users
